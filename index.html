@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B30 Biodiesel - Kotyark Industries Limited</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="/_sdk/element_sdk.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=DM+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <style>
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .font-body { font-family: 'DM Sans', sans-serif; }
+    
+    .gradient-bg {
+      background: linear-gradient(135deg, #f0fdf4 0%, #f1f5f9 100%);
+    }
+    
+    .card-gradient {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.98) 100%);
+      backdrop-filter: blur(10px);
+    }
+    
+    .glow-green {
+      box-shadow: 0 0 40px rgba(34, 197, 94, 0.1);
+    }
+    
+    .leaf-pattern {
+      background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 5c0 0-15 10-15 25s15 25 15 25s15-10 15-25S30 5 30 5z' fill='none' stroke='%2322c55e' stroke-opacity='0.08' stroke-width='1'/%3E%3C/svg%3E");
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    
+    .float-animation {
+      animation: float 4s ease-in-out infinite;
+    }
+    
+    @keyframes pulse-glow {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 1; }
+    }
+    
+    .pulse-glow {
+      animation: pulse-glow 3s ease-in-out infinite;
+    }
+  </style>
+  <style>body { box-sizing: border-box; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full font-body">
+  <div class="h-full overflow-auto gradient-bg leaf-pattern"><!-- Hero Section -->
+   <header class="relative px-6 py-16 md:py-24 text-center">
+    <div class="absolute top-10 left-10 w-20 h-20 rounded-full bg-green-200/30 blur-2xl pulse-glow"></div>
+    <div class="absolute bottom-10 right-10 w-32 h-32 rounded-full bg-emerald-200/20 blur-3xl pulse-glow" style="animation-delay: 1.5s;"></div>
+    <div class="max-w-4xl mx-auto relative z-10"><!-- Kotyark Logo -->
+     <div class="mb-8">
+      
+<img
+    src="./KotyarkLogo.png"     
+    alt="Kotyark Industries Limited logo"
+    class="mx-auto mb-4"
+    style="width: 64px; height: auto;"
+  />
+
+      <p class="text-sm font-medium text-green-700 mb-2">Kotyark Industries Limited</p>
+      <p class="text-xs text-gray-600">Vadodara, Gujarat</p>
+     </div>
+     <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-100 border border-green-300 mb-6"><span class="w-2 h-2 rounded-full bg-green-600 animate-pulse"></span> <span class="text-green-700 text-sm font-medium">Sustainable Energy Solution</span>
+     </div>
+     <h1 id="main-title" class="font-heading text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">B30 <span class="text-green-600">Biodiesel</span></h1>
+     <p class="text-sm md:text-base text-green-700 font-medium mb-4">A Sustainable Fuel Solution by Kotyark Industries Limited</p>
+     <p id="hero-subtitle" class="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto leading-relaxed">Accelerating India's transition toward cleaner, low-carbon energy solutions with high-performance B30 biodiesel — 30% biodiesel blended with 70% conventional diesel.</p>
+     <div class="mt-10 float-animation">
+      <svg class="w-16 h-16 mx-auto text-green-600" viewbox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="45" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4" /> <path d="M50 20C50 20 25 35 25 55C25 75 50 85 50 85C50 85 75 75 75 55C75 35 50 20 50 20Z" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="2" /> <path d="M50 35V65M40 50H60" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      </svg>
+     </div>
+    </div>
+   </header><!-- What is B30 Section -->
+   <section class="px-6 py-16">
+    <div class="max-w-6xl mx-auto">
+     <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div class="card-gradient rounded-3xl p-8 border border-green-500/20 glow-green">
+       <h2 class="font-heading text-3xl font-bold text-gray-900 mb-4">What is B30?</h2>
+       <p class="text-gray-700 leading-relaxed mb-4">B30 is a biofuel blend containing <strong class="text-green-700">30% biodiesel</strong> (fatty acid methyl ester) mixed with <strong class="text-green-700">70% petroleum diesel</strong>. The biodiesel component is typically derived from renewable sources like palm oil, soybean oil, or used cooking oil.</p>
+       <p class="text-gray-700 leading-relaxed">This blend represents a significant step up from B20, offering greater environmental benefits while maintaining compatibility with most diesel engines designed for lower blends.</p>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+       <div class="card-gradient rounded-2xl p-6 border border-green-500/20 text-center">
+        <div class="text-4xl font-heading font-bold text-green-600 mb-2">
+         30%
+        </div>
+        <div class="text-gray-600 text-sm">
+         Biodiesel Content
+        </div>
+       </div>
+       <div class="card-gradient rounded-2xl p-6 border border-green-500/20 text-center">
+        <div class="text-4xl font-heading font-bold text-green-600 mb-2">
+         70%
+        </div>
+        <div class="text-gray-600 text-sm">
+         Petroleum Diesel
+        </div>
+       </div>
+       <div class="card-gradient rounded-2xl p-6 border border-green-500/20 text-center col-span-2">
+        <div class="text-4xl font-heading font-bold text-green-600 mb-2">
+         ~20%
+        </div>
+        <div class="text-gray-600 text-sm">
+         CO₂ Emission Reduction vs Regular Diesel
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- Benefits Section -->
+   <section class="px-6 py-16">
+    <div class="max-w-6xl mx-auto">
+     <h2 class="font-heading text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">Key <span class="text-green-600">Benefits</span></h2>
+     <div class="grid md:grid-cols-3 gap-6">
+      <div class="card-gradient rounded-2xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300 group">
+       <div class="w-14 h-14 rounded-xl bg-green-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+        <svg class="w-7 h-7 text-green-600" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+       </div>
+       <h3 class="font-heading text-xl font-semibold text-gray-900 mb-3">Environmental Impact</h3>
+       <p class="text-gray-700 leading-relaxed">Reduces greenhouse gas emissions by approximately 20% compared to conventional diesel, helping combat climate change.</p>
+      </div>
+      <div class="card-gradient rounded-2xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300 group">
+       <div class="w-14 h-14 rounded-xl bg-green-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+        <svg class="w-7 h-7 text-green-600" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+        </svg>
+       </div>
+       <h3 class="font-heading text-xl font-semibold text-gray-900 mb-3">Renewable Source</h3>
+       <p class="text-gray-700 leading-relaxed">Made from renewable resources like vegetable oils and animal fats, reducing dependency on fossil fuels.</p>
+      </div>
+      <div class="card-gradient rounded-2xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300 group">
+       <div class="w-14 h-14 rounded-xl bg-green-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+        <svg class="w-7 h-7 text-green-600" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+       </div>
+       <h3 class="font-heading text-xl font-semibold text-gray-900 mb-3">Economic Benefits</h3>
+       <p class="text-gray-700 leading-relaxed">Supports local agriculture and reduces oil imports, creating jobs and strengthening energy security.</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- Technical Specs Section -->
+   <section class="px-6 py-16">
+    <div class="max-w-6xl mx-auto">
+     <div class="card-gradient rounded-3xl p-8 md:p-12 border border-green-500/20">
+      <h2 class="font-heading text-3xl font-bold text-gray-900 mb-8 text-center">Technical Specifications</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+       <div class="space-y-4">
+        <div class="flex justify-between items-center py-3 border-b border-green-500/20"><span class="text-gray-700">Cetane Number</span> <span class="text-gray-900 font-medium">51-55</span>
+        </div>
+        <div class="flex justify-between items-center py-3 border-b border-green-500/20"><span class="text-gray-700">Density @ 15°C</span> <span class="text-gray-900 font-medium">860-890 kg/m³</span>
+        </div>
+        <div class="flex justify-between items-center py-3 border-b border-green-500/20"><span class="text-gray-700">Flash Point</span> <span class="text-gray-900 font-medium">&gt;55°C</span>
+        </div>
+        <div class="flex justify-between items-center py-3 border-b border-green-500/20"><span class="text-gray-700">Sulfur Content</span> <span class="text-gray-900 font-medium">&lt;50 ppm</span>
+        </div>
+       </div>
+       <div class="space-y-4">
+        <div class="flex justify-between items-center py-3 border-b border-green-500/20"><span class="text-gray-700">Kinematic Viscosity @ 40°C</span> <span class="text-gray-900 font-medium">2.0-4.5 mm²/s</span>
+        </div>
+        <div class="flex justify-between items-center py-3 border-b border-green-500/20"><span class="text-gray-700">Water Content</span> <span class="text-gray-900 font-medium">&lt;500 mg/kg</span>
+        </div>
+        <div class="flex justify-between items-center py-3 border-b border-green-500/20"><span class="text-gray-700">Carbon Residue</span> <span class="text-gray-900 font-medium">&lt;0.3% m/m</span>
+        </div>
+        <div class="flex justify-between items-center py-3 border-b border-green-500/20"><span class="text-gray-700">Oxidation Stability</span> <span class="text-gray-900 font-medium">&gt;20 hours</span>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- Considerations Section -->
+   <section class="px-6 py-16">
+    <div class="max-w-6xl mx-auto">
+     <h2 class="font-heading text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">Important <span class="text-amber-600">Considerations</span></h2>
+     <div class="grid md:grid-cols-2 gap-6">
+      <div class="card-gradient rounded-2xl p-6 border border-amber-500/30">
+       <div class="flex items-start gap-4">
+        <div class="w-10 h-10 rounded-lg bg-amber-500/20 flex items-center justify-center flex-shrink-0">
+         <svg class="w-5 h-5 text-amber-600" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+         </svg>
+        </div>
+        <div>
+         <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Engine Compatibility</h3>
+         <p class="text-gray-700 text-sm leading-relaxed">May require engine modifications or OEM approval. Check manufacturer guidelines before use.</p>
+        </div>
+       </div>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-amber-500/30">
+       <div class="flex items-start gap-4">
+        <div class="w-10 h-10 rounded-lg bg-amber-500/20 flex items-center justify-center flex-shrink-0">
+         <svg class="w-5 h-5 text-amber-600" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+         </svg>
+        </div>
+        <div>
+         <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Cold Weather Performance</h3>
+         <p class="text-gray-700 text-sm leading-relaxed">Biodiesel can gel in cold temperatures. Cold flow additives may be needed in winter.</p>
+        </div>
+       </div>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-amber-500/30">
+       <div class="flex items-start gap-4">
+        <div class="w-10 h-10 rounded-lg bg-amber-500/20 flex items-center justify-center flex-shrink-0">
+         <svg class="w-5 h-5 text-amber-600" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+         </svg>
+        </div>
+        <div>
+         <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Storage Requirements</h3>
+         <p class="text-gray-700 text-sm leading-relaxed">Biodiesel degrades faster than petroleum diesel. Proper storage conditions are essential.</p>
+        </div>
+       </div>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-amber-500/30">
+       <div class="flex items-start gap-4">
+        <div class="w-10 h-10 rounded-lg bg-amber-500/20 flex items-center justify-center flex-shrink-0">
+         <svg class="w-5 h-5 text-amber-600" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+         </svg>
+        </div>
+        <div>
+         <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Fuel System Maintenance</h3>
+         <p class="text-gray-700 text-sm leading-relaxed">B30 has solvent properties that may loosen deposits. More frequent filter changes may be needed initially.</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- About Kotyark Section -->
+   <section class="px-6 py-16 bg-gradient-to-r from-green-50 to-emerald-50">
+    <div class="max-w-6xl mx-auto">
+     <div class="flex items-start gap-6 mb-8">
+      <svg class="w-12 h-12 text-green-600 flex-shrink-0" viewbox="0 0 100 100" fill="none"><rect x="10" y="10" width="80" height="80" rx="8" fill="none" stroke="currentColor" stroke-width="2" /> <path d="M30 35h10v30H30M45 35h10v30H45M60 35h10v30H60" fill="currentColor" /> <circle cx="50" cy="25" r="4" fill="currentColor" />
+      </svg>
+      <div>
+       <h2 class="font-heading text-3xl font-bold text-gray-900 mb-4">About Kotyark Industries Limited</h2>
+       <p class="text-gray-700 leading-relaxed mb-4">At Kotyark Industries Limited, we are committed to accelerating India's transition toward cleaner, low-carbon energy solutions. Based in Vadodara, Gujarat, our company is dedicated to sustainability, innovation, and environmental responsibility.</p>
+       <p class="text-gray-700 leading-relaxed">We proudly present B30 Biodiesel — a high-performance fuel blend consisting of 30% biodiesel and 70% conventional diesel. B30 represents a powerful and practical step toward decarbonization, offering immediate environmental and operational advantages without disrupting existing diesel infrastructure.</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- Key Benefits Section -->
+   <section class="px-6 py-16">
+    <div class="max-w-6xl mx-auto">
+     <h2 class="font-heading text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">Comprehensive Benefits of <span class="text-green-600">B30 Biodiesel</span></h2>
+     <div class="grid md:grid-cols-2 gap-6">
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20">
+       <div class="flex items-start gap-4">
+        <div class="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center flex-shrink-0">
+         <svg class="w-5 h-5 text-green-600" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+         </svg>
+        </div>
+        <div>
+         <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Significant Reduction in Greenhouse Gas Emissions</h3>
+         <p class="text-gray-700 text-sm leading-relaxed">B30 delivers substantial CO₂ emission reductions, contributing directly to climate change mitigation.</p>
+        </div>
+       </div>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20">
+       <div class="flex items-start gap-4">
+        <div class="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center flex-shrink-0">
+         <svg class="w-5 h-5 text-green-600" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+         </svg>
+        </div>
+        <div>
+         <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Lower Particulate Matter (PM) Emissions</h3>
+         <p class="text-gray-700 text-sm leading-relaxed">Reduced harmful particulate emissions improve air quality and health outcomes.</p>
+        </div>
+       </div>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20">
+       <div class="flex items-start gap-4">
+        <div class="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center flex-shrink-0">
+         <svg class="w-5 h-5 text-green-600" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+         </svg>
+        </div>
+        <div>
+         <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Reduced Carbon Monoxide and Unburned Hydrocarbons</h3>
+         <p class="text-gray-700 text-sm leading-relaxed">Cleaner combustion characteristics minimize harmful pollutants.</p>
+        </div>
+       </div>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20">
+       <div class="flex items-start gap-4">
+        <div class="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center flex-shrink-0">
+         <svg class="w-5 h-5 text-green-600" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+         </svg>
+        </div>
+        <div>
+         <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Renewable and Sustainable Energy Source</h3>
+         <p class="text-gray-700 text-sm leading-relaxed">Made from renewable resources, reducing dependency on fossil fuels.</p>
+        </div>
+       </div>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20">
+       <div class="flex items-start gap-4">
+        <div class="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center flex-shrink-0">
+         <svg class="w-5 h-5 text-green-600" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+         </svg>
+        </div>
+        <div>
+         <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Drop-In Compatibility with Existing Infrastructure</h3>
+         <p class="text-gray-700 text-sm leading-relaxed">No disruption to current diesel infrastructure or equipment.</p>
+        </div>
+       </div>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20">
+       <div class="flex items-start gap-4">
+        <div class="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center flex-shrink-0">
+         <svg class="w-5 h-5 text-green-600" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m7 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+         </svg>
+        </div>
+        <div>
+         <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Enhanced Fuel Lubricity</h3>
+         <p class="text-gray-700 text-sm leading-relaxed">Biodiesel's superior lubricating properties extend engine life and reduce maintenance.</p>
+        </div>
+       </div>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20">
+       <div class="flex items-start gap-4">
+        <div class="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center flex-shrink-0">
+         <svg class="w-5 h-5 text-green-600" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+         </svg>
+        </div>
+        <div>
+         <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Strengthening Energy Security</h3>
+         <p class="text-gray-700 text-sm leading-relaxed">Reduced oil imports support India's energy independence and strategic autonomy.</p>
+        </div>
+       </div>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20">
+       <div class="flex items-start gap-4">
+        <div class="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center flex-shrink-0">
+         <svg class="w-5 h-5 text-green-600" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M17.657 17.657a8 8 0 01-11.314 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+         </svg>
+        </div>
+        <div>
+         <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Supporting Circular Economy and Waste Management</h3>
+         <p class="text-gray-700 text-sm leading-relaxed">Biodiesel from waste oils creates value from circular economy principles.</p>
+        </div>
+       </div>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20">
+       <div class="flex items-start gap-4">
+        <div class="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center flex-shrink-0">
+         <svg class="w-5 h-5 text-green-600" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+         </svg>
+        </div>
+        <div>
+         <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Alignment with ESG and Sustainability Reporting</h3>
+         <p class="text-gray-700 text-sm leading-relaxed">Demonstrates commitment to ESG goals and supports corporate sustainability narratives.</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- Strategic Advantages Section -->
+   <section class="px-6 py-16 bg-gradient-to-r from-green-50 to-emerald-50">
+    <div class="max-w-6xl mx-auto">
+     <h2 class="font-heading text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">Strategic <span class="text-green-600">Advantages</span></h2>
+     <div class="grid md:grid-cols-2 gap-6">
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20">
+       <h3 class="font-heading text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2"><span class="text-green-600">✓</span> Improved Corporate Reputation</h3>
+       <p class="text-gray-700 text-sm leading-relaxed">Enhanced stakeholder confidence through visible commitment to sustainability and environmental responsibility.</p>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20">
+       <h3 class="font-heading text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2"><span class="text-green-600">✓</span> Biodegradability</h3>
+       <p class="text-gray-700 text-sm leading-relaxed">Reduced environmental risk in case of spills with inherently biodegradable fuel properties.</p>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20">
+       <h3 class="font-heading text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2"><span class="text-green-600">✓</span> Net-Zero Roadmap Contribution</h3>
+       <p class="text-gray-700 text-sm leading-relaxed">Immediate contribution to organizational net-zero carbon reduction targets and goals.</p>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20">
+       <h3 class="font-heading text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2"><span class="text-green-600">✓</span> Economic &amp; Rural Development</h3>
+       <p class="text-gray-700 text-sm leading-relaxed">Supports local agricultural communities and rural development through biodiesel production.</p>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20">
+       <h3 class="font-heading text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2"><span class="text-green-600">✓</span> Scalable &amp; Rapid Deployment</h3>
+       <p class="text-gray-700 text-sm leading-relaxed">Ready-to-implement solution that can be rapidly deployed across existing fleet operations.</p>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20">
+       <h3 class="font-heading text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2"><span class="text-green-600">✓</span> Regulatory Compliance</h3>
+       <p class="text-gray-700 text-sm leading-relaxed">Helps organizations meet current and anticipated environmental regulations and emission standards.</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- Target Industries Section -->
+   <section class="px-6 py-16">
+    <div class="max-w-6xl mx-auto">
+     <h2 class="font-heading text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">Industries &amp; Sectors <span class="text-green-600">Benefiting from B30</span></h2>
+     <div class="grid md:grid-cols-3 gap-6">
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20 text-center">
+       <div class="text-4xl mb-3">
+        🚛
+       </div>
+       <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Transport Fleets</h3>
+       <p class="text-gray-700 text-sm">Reduce emissions from commercial logistics and transportation operations.</p>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20 text-center">
+       <div class="text-4xl mb-3">
+        ⛏️
+       </div>
+       <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Mining Operations</h3>
+       <p class="text-gray-700 text-sm">Lower operational carbon footprint in heavy equipment and extraction sectors.</p>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20 text-center">
+       <div class="text-4xl mb-3">
+        🚂
+       </div>
+       <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Railways</h3>
+       <p class="text-gray-700 text-sm">Support sustainable rail transport with cleaner diesel alternatives.</p>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20 text-center">
+       <div class="text-4xl mb-3">
+        ⛴️
+       </div>
+       <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Marine Sector</h3>
+       <p class="text-gray-700 text-sm">Enable ocean-going vessels and port operations to meet emissions standards.</p>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20 text-center">
+       <div class="text-4xl mb-3">
+        ⚡
+       </div>
+       <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Power Generation</h3>
+       <p class="text-gray-700 text-sm">Reduce emissions from diesel-powered backup and distributed generation systems.</p>
+      </div>
+      <div class="card-gradient rounded-2xl p-6 border border-green-500/20 text-center">
+       <div class="text-4xl mb-3">
+        🏭
+       </div>
+       <h3 class="font-heading text-lg font-semibold text-gray-900 mb-2">Large Fuel Consumers</h3>
+       <p class="text-gray-700 text-sm">Enable industrial facilities to achieve sustainability commitments efficiently.</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- Call to Action Section -->
+   <section class="px-6 py-16 bg-gradient-to-r from-green-600 to-emerald-600">
+    <div class="max-w-4xl mx-auto text-center">
+     <h2 class="font-heading text-3xl md:text-4xl font-bold text-white mb-6">B30 is Ready to Deploy</h2>
+     <p class="text-lg text-green-50 mb-8 leading-relaxed">B30 Biodiesel represents one of the most practical, scalable, and impactful solutions for immediate carbon reduction in diesel-dependent sectors. It is not a future concept — it is a ready-to-implement solution available today.</p>
+     <p class="text-lg text-green-100 font-medium">Kotyark Industries Limited is committed to driving the transition toward cleaner fuels and partnering with forward-looking organizations to build a greener, more sustainable future.</p>
+    </div>
+   </section><!-- Footer -->
+   <footer class="px-6 py-12 border-t border-green-500/20">
+    <div class="max-w-6xl mx-auto text-center">
+     <div class="flex items-center justify-center gap-2 mb-4">
+      
+  <src="./KotyarkLogo.png"           
+    alt="Kotyark Industries Limited logo"
+    class="h-8 w-auto"
+  />
+
+        <span class="font-heading text-xl font-bold text-gray-900">B30 Biofuel</span>
+     </div>
+     <p class="text-gray-600 text-sm">Sustainable energy for a greener tomorrow</p>
+    </div>
+   </footer>
+  </div>
+  <script>
+    const defaultConfig = {
+      main_title: 'B30 Biodiesel – A Sustainable Fuel Solution Presented by Kotyark Industries Limited',
+      hero_subtitle: 'Accelerating India\'s transition toward cleaner, low-carbon energy solutions with high-performance B30 biodiesel — 30% biodiesel blended with 70% conventional diesel.',
+      company_location: 'Vadodara, Gujarat',
+      primary_color: '#4ade80',
+      secondary_color: '#1a3a1a',
+      text_color: '#ffffff',
+      accent_color: '#fbbf24',
+      surface_color: '#0d1f0d',
+      font_family: 'Space Grotesk',
+      font_size: 16
+    };
+
+    async function onConfigChange(config) {
+      const mainTitle = document.getElementById('main-title');
+      const heroSubtitle = document.getElementById('hero-subtitle');
+      
+      if (mainTitle) {
+        const titleText = config.main_title || defaultConfig.main_title;
+        mainTitle.innerHTML = titleText.replace('Biofuel', '<span class="text-green-400">Biofuel</span>');
+      }
+      
+      if (heroSubtitle) {
+        heroSubtitle.textContent = config.hero_subtitle || defaultConfig.hero_subtitle;
+      }
+      
+      // Apply font
+      const fontFamily = config.font_family || defaultConfig.font_family;
+      document.querySelectorAll('.font-heading').forEach(el => {
+        el.style.fontFamily = `${fontFamily}, sans-serif`;
+      });
+      
+      // Apply font size
+      const baseSize = config.font_size || defaultConfig.font_size;
+      document.documentElement.style.fontSize = `${baseSize}px`;
+    }
+
+    function mapToCapabilities(config) {
+      return {
+        recolorables: [
+          {
+            get: () => config.surface_color || defaultConfig.surface_color,
+            set: (value) => {
+              config.surface_color = value;
+              window.elementSdk.setConfig({ surface_color: value });
+            }
+          },
+          {
+            get: () => config.secondary_color || defaultConfig.secondary_color,
+            set: (value) => {
+              config.secondary_color = value;
+              window.elementSdk.setConfig({ secondary_color: value });
+            }
+          },
+          {
+            get: () => config.text_color || defaultConfig.text_color,
+            set: (value) => {
+              config.text_color = value;
+              window.elementSdk.setConfig({ text_color: value });
+            }
+          },
+          {
+            get: () => config.primary_color || defaultConfig.primary_color,
+            set: (value) => {
+              config.primary_color = value;
+              window.elementSdk.setConfig({ primary_color: value });
+            }
+          },
+          {
+            get: () => config.accent_color || defaultConfig.accent_color,
+            set: (value) => {
+              config.accent_color = value;
+              window.elementSdk.setConfig({ accent_color: value });
+            }
+          }
+        ],
+        borderables: [],
+        fontEditable: {
+          get: () => config.font_family || defaultConfig.font_family,
+          set: (value) => {
+            config.font_family = value;
+            window.elementSdk.setConfig({ font_family: value });
+          }
+        },
+        fontSizeable: {
+          get: () => config.font_size || defaultConfig.font_size,
+          set: (value) => {
+            config.font_size = value;
+            window.elementSdk.setConfig({ font_size: value });
+          }
+        }
+      };
+    }
+
+    function mapToEditPanelValues(config) {
+      return new Map([
+        ['main_title', config.main_title || defaultConfig.main_title],
+        ['hero_subtitle', config.hero_subtitle || defaultConfig.hero_subtitle],
+        ['company_location', config.company_location || defaultConfig.company_location]
+      ]);
+    }
+
+    if (window.elementSdk) {
+      window.elementSdk.init({
+        defaultConfig,
+        onConfigChange,
+        mapToCapabilities,
+        mapToEditPanelValues
+      });
+    }
+  </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d307e622715f563',t:'MTc3MTk1MjE1OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
